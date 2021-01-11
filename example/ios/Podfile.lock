@@ -1,0 +1,29 @@
+PODS:
+  - Flutter (1.0.0)
+  - Plaid (2.0.8)
+  - plaid_native (0.0.1):
+    - Flutter
+    - Plaid
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - plaid_native (from `.symlinks/plugins/plaid_native/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Plaid
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  plaid_native:
+    :path: ".symlinks/plugins/plaid_native/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  Plaid: 8fe2386304cc3d19b04bdbf32f0228e80678839a
+  plaid_native: ef74ace5270d08f6c51a27eaf6e44255443e279a
+
+PODFILE CHECKSUM: 21b64fbb12492d731c9be90cbe0f2d328bef4b49
+
+COCOAPODS: 1.10.0

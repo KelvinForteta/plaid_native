@@ -3,7 +3,7 @@ import UIKit
 
 public class SwiftPlaidNativePlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
-    let channel = FlutterMethodChannel(name: "plaid_native", binaryMessenger: registrar.messenger())
+    let channel = FlutterMethodChannel(name: "kelvinforteta.dev/plaid_native", binaryMessenger: registrar.messenger())
     let instance = SwiftPlaidNativePlugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
   }
